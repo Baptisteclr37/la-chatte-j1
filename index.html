@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LA CHATTE - Résultats J1</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: #fdf9f3;
+      color: #222;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: linear-gradient(90deg, #e91e63, #9c27b0);
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+    }
+    header h1 {
+      font-size: 2.2em;
+      margin: 0;
+    }
+    .container {
+      padding: 1em;
+      max-width: 960px;
+      margin: auto;
+    }
+    .section-title {
+      color: #9c27b0;
+      margin-top: 2em;
+      font-size: 1.5em;
+      border-bottom: 2px solid #9c27b0;
+      padding-bottom: 0.3em;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 1em;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 0.7em;
+      text-align: center;
+    }
+    th {
+      background-color: #f1e7f9;
+    }
+    .match {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin: 1em 0;
+      background: #fff;
+      border: 1px solid #ddd;
+      padding: 0.8em;
+      border-radius: 10px;
+      box-shadow: 2px 2px 6px rgba(0,0,0,0.1);
+    }
+    .match img {
+      height: 32px;
+      width: 32px;
+    }
+    .match .teams {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-weight: bold;
+    }
+    .surprise {
+      color: #e91e63;
+      font-weight: bold;
+    }
+    @media (max-width: 600px) {
+      .match {
+        flex-direction: column;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🏆 LA CHATTE - Résultats J1</h1>
+    <p>La ligue la plus chatte de France est de retour !</p>
+  </header>
+  <div class="container">
+
+    <div class="section">
+      <h2 class="section-title">📊 Classement Journée</h2>
+      <table>
+        <tr>
+          <th>Rang</th>
+          <th>Participant</th>
+          <th>Points</th>
+          <th>Gains (€)</th>
+        </tr>
+        <tr><td>1</td><td>Kmel</td><td>19</td><td>17.00</td></tr>
+        <tr><td>1</td><td>Jerem</td><td>19</td><td>17.00</td></tr>
+        <tr><td>3</td><td>Max</td><td>12</td><td>125.00</td></tr>
+        <tr><td>4</td><td>Jo</td><td>9</td><td>1.00</td></tr>
+        <tr><td>5</td><td>Gérald</td><td>6</td><td>6.00</td></tr>
+        <tr><td>6</td><td>Sim</td><td>4</td><td>0.00</td></tr>
+        <tr><td>6</td><td>Krim</td><td>4</td><td>1.00</td></tr>
+        <tr><td>6</td><td>Nico</td><td>4</td><td>1.00</td></tr>
+        <tr><td>9</td><td>Raf</td><td>2</td><td>0.00</td></tr>
+        <tr><td>10</td><td>Juz</td><td>0</td><td>0.00</td></tr>
+        <tr><td>10</td><td>Batist</td><td>0</td><td>9.00</td></tr>
+        <tr><td>10</td><td>Mat</td><td>0</td><td>0.00</td></tr>
+        <tr><td>10</td><td>Tibo</td><td>0</td><td>0.00</td></tr>
+      </table>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">⚽ Matchs de la journée</h2>
+
+      <div class="match">
+        <div class="teams">
+          <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/b/be/Stade_rennais_logo.svg/1200px-Stade_rennais_logo.svg.png" alt="Rennes">
+          Rennes 1 - 1 Marseille
+          <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/5/5e/Olympique_de_Marseille_logo.svg/1200px-Olympique_de_Marseille_logo.svg.png" alt="Marseille">
+        </div>
+      </div>
+      <div class="match">
+        <div class="teams">
+          <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/e/e0/RC_Lens_Logo.svg/1200px-RC_Lens_Logo.svg.png" alt="Lens">
+          Lens 1 - 1 Lyon
+          <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c6/Olympique_Lyonnais_logo.svg/1200px-Olympique_Lyonnais_logo.svg.png" alt="Lyon">
+        </div>
+      </div>
+      <!-- Autres matchs à insérer ici -->
+
+      <div class="match">
+        <div class="teams">
+          <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/0/04/OGC_Nice_logo.svg/1200px-OGC_Nice_logo.svg.png" alt="Nice">
+          Nice 0 - 0 Toulouse
+          <img src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/cf/Toulouse_FC_Logo_2020.svg/1200px-Toulouse_FC_Logo_2020.svg.png" alt="Toulouse">
+        </div>
+        <div class="surprise">🔥 SURPRISE !</div>
+      </div>
+
+    </div>
+  </div>
+</body>
+</html>
